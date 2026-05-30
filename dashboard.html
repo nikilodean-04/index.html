@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Dedication ❤️</title>
+    <link rel="stylesheet" href="./dash.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="top-nav">
+        <a href="index.html" class="nav-link back-link">←Back</a>
+    </div>
+
+    <h1>Hi, babe! ❤️</h1>
+
+    <p class="subtitle">I'm bored, so here's a little list of songs that reminds me of you <3</p>
+
+    <div class="player-box">
+
+        <h2>🎵 My Playlist for You</h2>
+        
+        <audio id="audioPlayer" controls class="hidden"></audio>
+
+        <p id="songMessage" class="song-message"></p>
+
+        <div class="lahat">
+        
+            <div class="songss">
+                <img src="./picture/Panata.jpg" alt="Song Image">
+                <button onclick="playSong(
+                    'songs/song1.mp3',
+                    'Song #1 Panata: This is me saying that I will stay no matter what ❤️'
+                )">
+                   Panata
+                </button>
+            </div>
+
+            <div class="songss">
+                <img src="./picture/Sagip.jpg" alt="Song Image">
+                <button onclick="playSong(
+                    'songs/song2.mp3',
+                    'Song #2 Sagip: This reminds me of you saving me in every way ❤️'
+                )">
+                    Sagip
+                </button>
+            </div>
+     
+            <div class="songss">
+                <img src="./picture/Pahintulot.jpg" alt="Song Image">
+                <button onclick="playSong(
+                    'songs/song3.mp3',
+                    'Song #3 Pahintulot: Please let me give you everything that I can ❤️'
+                )">
+                    Pahintulot
+                </button>
+            </div>
+
+            <div class="songss">
+                <img src="./picture/Panatag.jpg" alt="Song Image">
+                <button onclick="playSong(
+                    'songs/song4.mp3',
+                    'Song #4 Panatag: With you I am at peace. ❤️'
+                )">
+                    Panatag
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <p class="footer">Made with love ❤️ <br> tadowwww tinininininin</p>
+
+    <div class="top-nav">
+        <a href="index.html" class="nav-link back-link">←Back</a>
+</div>
+
+</div>
+
+
+
+<script src="player.js"></script>
+
+</body>
+</html>
